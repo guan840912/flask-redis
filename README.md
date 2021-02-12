@@ -4,9 +4,8 @@ To Use
 
 ```bash
 git clone https://github.com/guan840912/flask-redis.git
-```
 
-```bash
+cd flask-redis
 
 docker-compose build 
 
@@ -30,6 +29,13 @@ docker-compose logs home
 docker-compose logs redis
 
 docker-compose ps -a
+Stopping redis                         ... done
+Stopping home                          ... done
+Stopping movie.internal-bookingapp.com ... done
+Removing redis                         ... done
+Removing home                          ... done
+Removing movie.internal-bookingapp.com ... done
+Removing network flask-redis_default
 ```
 
 To Test
